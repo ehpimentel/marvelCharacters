@@ -9,7 +9,7 @@ var colossus = document.getElementById("colossus");
 var ironman = document.getElementById("ironman");
 var drdoom = document.getElementById("drdoom");
 var capitao = document.getElementById("capitao");
-var iceman = document.getElementById("iceman");
+var thor = document.getElementById("thor");
 var ciclope = document.getElementById("ciclope");
 var jeangrey = document.getElementById("jeangrey");
 var magneto = document.getElementById("magneto");
@@ -126,14 +126,14 @@ colossus.addEventListener("click", function() {
     if (p1.src.includes("colossus.gif")) {
         p1.style.height = "260px"; // Reduz o tamanho do Hulk no player1
         p1.style.padding = "0px";
-        p1.style.marginBottom = "0px";
+        p1.style.marginBottom = "-10px";
     }
 
     // Verifica se a imagem do Hulk foi adicionada ao player2
     if (p2.src.includes("colossus.gif")) {
         p2.style.height = "260px"; // Reduz o tamanho do Hulk no player2
         p2.style.padding = "0px";
-        p2.style.marginBottom = "0px";
+        p2.style.marginBottom = "-10px";
     }
 });
 
@@ -185,18 +185,18 @@ capitao.addEventListener("click", function() {
     }
 });
 
-iceman.addEventListener("click", function() {
-    setCharacter("./img/Iceman.gif");
-    if (p1.src.includes("Iceman.gif")) {
-        p1.style.height = "240px"; // Reduz o tamanho do Hulk no player1
-        p1.style.padding = "0px";
+thor.addEventListener("click", function() {
+    setCharacter("./img/thor.webp");
+    if (p1.src.includes("thor.webp")) {
+        p1.style.height = "230px"; // Reduz o tamanho do Hulk no player1
+        p1.style.padding = "10px";
         p1.style.marginBottom = "0px";
     }
 
     // Verifica se a imagem do Hulk foi adicionada ao player2
-    if (p2.src.includes("Iceman.gif")) {
-        p2.style.height = "240px"; // Reduz o tamanho do Hulk no player2
-        p2.style.padding = "0px";
+    if (p2.src.includes("thor.webp")) {
+        p2.style.height = "230px"; // Reduz o tamanho do Hulk no player2
+        p2.style.padding = "10px";
         p2.style.marginBottom = "0px";
     }
 });
@@ -285,14 +285,14 @@ gambit.addEventListener("click", function() {
     setCharacter("./img/gambit.gif");
     if (p1.src.includes("gambit.gif")) {
         p1.style.height = "215px"; // Reduz o tamanho do Hulk no player1
-        p1.style.padding = "0px";
+        p1.style.padding = "10px";
         p1.style.marginBottom = "0px";
     }
 
     // Verifica se a imagem do Hulk foi adicionada ao player2
     if (p2.src.includes("gambit.gif")) {
         p2.style.height = "215px"; // Reduz o tamanho do Hulk no player2
-        p2.style.padding = "0px";
+        p2.style.padding = "10px";
         p2.style.marginBottom = "0px";
     }
 });
@@ -366,16 +366,16 @@ blackpanther.addEventListener("click", function() {
 omega.addEventListener("click", function() {
     setCharacter("./img/omega.gif");
     if (p1.src.includes("omega.gif")) {
-        p1.style.height = "260px"; // Reduz o tamanho do Hulk no player1
+        p1.style.height = "280px"; // Reduz o tamanho do Hulk no player1
         p1.style.padding = "0px";
-        p1.style.marginBottom = "0px";
+        p1.style.marginBottom = "-10px";
     }
 
     // Verifica se a imagem do Hulk foi adicionada ao player2
     if (p2.src.includes("omega.gif")) {
-        p2.style.height = "260px"; // Reduz o tamanho do Hulk no player2
+        p2.style.height = "280px"; // Reduz o tamanho do Hulk no player2
         p2.style.padding = "0px";
-        p2.style.marginBottom = "0px";
+        p2.style.marginBottom = "-10px";
     }
 });
 
